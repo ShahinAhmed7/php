@@ -37,7 +37,7 @@
    		// 7 .object
 
 
-            echo 'hello world sjhcsjhj';
+            echo 'hello world how are you';
 
             $x = 27;
 
