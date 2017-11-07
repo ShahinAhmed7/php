@@ -41,6 +41,25 @@
         $b = 20;
 
 
+        if($a ==40 && $b == 20){
+            echo 'hello world';    
+        }else{
+            echo 'nothing new';
+        }
+  
+        // if($a ==41 || $b == 20){
+        //     echo 'Righ Code';
+        // }else{
+        //     echo 'nothing new';
+        // }
+
+  
+        // if($a ==40 xor $b == 20){
+        //     echo 'Righ Code';
+        // }else{
+        //     echo 'nothing new';
+        // }
+
 
 
 
