@@ -1,11 +1,8 @@
 <?php 
-	$fonts = "arial";
-	// $color = "#dc1d00";
+    $fonts = "arial";
+    // $color = "#dc1d00";
 
  ?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,42 +11,54 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-		body{
-		  font-family: <?php echo $fonts;?>;
-		 /* color: <?php echo $color; ?>*/
-		}
+        body{
+          font-family: <?php echo $fonts;?>;
+         /* color: <?php echo $color; ?>*/
+        }
     </style>
 
 
 </head>
 <body>
-
     <div class="php-style">
         <h2><?php echo "PHP Basic Class" ;?></h2>
-            <?php 
+        1 .Arithmetic operator
+        2 .Assignment operator
+        3 .Comparision operator
+        4 .increment Decrement operator
+        4 .Logical operator
+        5 .Object
+        6 .strings operator
+        7 .Array operator
+        <br>
+        <hr>
+         6 .strings operator
+        <hr>
+
+        <?php 
+             
+        
+            // $x = "hello";
+            // $y = " world";
+            // $z = $x . $y;
+
+            // echo $z;
 
 
-            $x = "PHP is nice";
-            // echo strlen($x);
-            // echo str_word_count($x);
-            // echo strrev($x);
-            // echo strpos($x, "nice");
-            echo str_replace("PHP", "Java", $x); 
-         ?>
+            $x = "hello";
+            $y = " world";
+            $x .= $y;
+
+            echo $x;
+
+
+
+        ?>
+
+
        </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
